@@ -91,7 +91,7 @@ def add_used_image_to_database(image_url):
 def send_media_from_reddit_to_telegram(subreddit_str):
     try:
         subreddit = reddit.subreddit(subreddit_str)
-        for submission in subreddit.new(limit=None):
+        for submission in subreddit.new(limit=None):     # можна замість new використати hot розділ реддіту
             if not submission.stickied:
                 if submission.url.endswith(('.jpg', '.jpeg', '.png')):   # для фото
                     if check_image_not_used(submission.url):
