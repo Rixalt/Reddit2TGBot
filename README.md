@@ -66,7 +66,7 @@ Replace `<telegram channel ID>`, `<telegram bot token>`, `<Reddit client>`, `<Re
 
 ## Usage
 
-TTo run Reddit2TGBot, go to the virtual environment folder you created, activate it, and run the script:
+To run Reddit2TGBot, go to the virtual environment folder you created, activate it, and run the script:
 
 ```shell
 source Reddit2TGBot/bin/activate
